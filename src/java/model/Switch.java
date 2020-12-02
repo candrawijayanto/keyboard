@@ -1,11 +1,27 @@
 package model;
 
 public class Switch {
+    private String idProduk;
+    private String idKategori;
     private String namaProduk;
     private String idSwitchType;
     private String forceAction;
     private String merek;
     private float harga;
+    
+    public String getIdProduk(){
+        return idProduk;
+    }
+    public void setIdProduk(String idProduk){
+        this.idProduk = idProduk;
+    }
+    
+    public String getIdKategori(){
+        return idKategori;
+    }
+    public void setIdKategori(String idKategori){
+        this.idKategori = idKategori;
+    }
     
     public String getNamaProduk(){
         return namaProduk;
